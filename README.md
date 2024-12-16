@@ -15,9 +15,9 @@ This is a React-based web application for detecting brain tumors using deep lear
    cd Brain_tumor_react_app
 
 
-
-Install dependencies:
-npm install
+```bash
+   Install dependencies:
+   npm install
 
 
 
