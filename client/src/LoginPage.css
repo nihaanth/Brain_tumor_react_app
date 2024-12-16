@@ -1,0 +1,76 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 400px; /* Set maximum width */
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5em; /* Use em units for margin */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1em;
+    margin-top: 0.5em; 
+    border: 1px solid rgb(179, 59, 59);
+    border-radius: 3px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em; /* Use em units for margin */
+    background-color: #5ac460;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-button:disabled {
+    background-color: #b0c4de;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1em; /* Use em units for margin */
+    background-color: #b0c4de;
+  }
+  
+  .otp-dialogue {
+    margin-top: 2em; /* Use em units for margin */
+
+  }
+  
+  .otp-button {
+    background-color:  rgb(164, 122, 228);
+    color: rgb(68, 238, 238);
+    width: 100%;
+    padding: 1em;
+
+    border-radius: 5px;
+    border: none;
+
+  }
+  
